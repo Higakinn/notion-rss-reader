@@ -23,5 +23,6 @@ jobs:
           path: main
       - name: Update Notion Feed
         run: |
+          ls
           yarn build
           yarn feed
