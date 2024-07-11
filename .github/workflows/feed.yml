@@ -19,8 +19,6 @@ jobs:
           node-version: 14
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          path: main
       - name: Update Notion Feed
         run: |
           ls
